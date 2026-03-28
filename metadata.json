@@ -1,0 +1,5 @@
+{
+  "name": "Modern Scientific Calculator",
+  "description": "A feature-rich scientific calculator with history, memory functions, and a sleek dark/light mode UI.",
+  "requestFramePermissions": []
+}

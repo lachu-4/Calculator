@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-calc-bg: #121212;
+  --color-calc-surface: #1e1e1e;
+  --color-calc-accent: #ff9f0a;
+  --color-calc-secondary: #313131;
+  --color-calc-text: #ffffff;
+  
+  --color-calc-light-bg: #f5f5f7;
+  --color-calc-light-surface: #ffffff;
+  --color-calc-light-accent: #007aff;
+  --color-calc-light-secondary: #e5e5ea;
+  --color-calc-light-text: #000000;
+}
+
+@layer base {
+  body {
+    @apply transition-colors duration-300;
+  }
+}
